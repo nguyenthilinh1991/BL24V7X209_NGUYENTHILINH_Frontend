@@ -1,7 +1,6 @@
 import { createWebHistory, createRouter } from "vue-router";
 import ContactBook from "@/views/ContactBook.vue";
 import ContactAdd from "@/views/ContactAdd.vue"; // Import ContactAdd
-
 const routes = [
   {
     path: "/",
@@ -25,7 +24,6 @@ const routes = [
     component: ContactAdd, // Sử dụng component ContactAdd
   },
 ];
-
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes,

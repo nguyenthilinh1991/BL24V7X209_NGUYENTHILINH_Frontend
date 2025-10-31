@@ -22,6 +22,7 @@ export default {
         address: "",
         phone: "",
         favorite: false,
+        gioitinh: false,
       },
       message: "",
     };
