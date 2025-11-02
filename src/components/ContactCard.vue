@@ -29,7 +29,11 @@ export default {
       <span v-if="contact.favorite">✔</span>
       <span v-else>✖</span>
     </div>
-
+<div class="p-1">
+      <strong>Tình trạng hôn nhân:</strong>
+      <span v-if="contact.honnhan">✔</span>
+      <span v-else>✖</span>
+    </div>
     
   </div>
 </template>

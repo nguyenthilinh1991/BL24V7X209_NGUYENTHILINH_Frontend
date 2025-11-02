@@ -22,7 +22,7 @@ export default {
         address: "",
         phone: "",
         favorite: false,
-        gioitinh: false,
+        honnhan: false,
       },
       message: "",
     };

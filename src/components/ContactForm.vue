@@ -51,7 +51,17 @@
         <strong>Liên hệ yêu thích</strong>
       </label>
     </div>
-    
+    <div class="form-group form-check">
+      <input
+        name="honnhan"
+        type="checkbox"
+        class="form-check-input"
+        v-model="contactLocal.honnhan"
+      />
+      <label for="honnhan" class="form-check-label">
+        <strong>Tình trạng hôn nhân </strong>
+      </label>
+    </div>
     <div class="form-group">
       <button class="btn btn-primary">Lưu</button>
       <button
